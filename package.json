@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/atapas/imaginary#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "gatsby": "^2.24.70",
+    "gatsby-source-cloudinary": "^0.1.14",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
