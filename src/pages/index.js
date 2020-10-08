@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from 'react';    
+import React from 'react';
+import Gallery from '../components/Gallery';
 
-  export default () => {    
-    const [status, setStatus ] = useState('loading...');    
-    const [images, setImages] = useState([]);    
-
+export default () => {    
     return (
       <>    
-        <h1>Images to load here...</h1>
+        <Gallery />
       </>        
     )    
 }
