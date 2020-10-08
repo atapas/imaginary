@@ -3,9 +3,7 @@ body {
     color: #FFFFFF;
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    padding: 10px;
 }
 
 .wave {
