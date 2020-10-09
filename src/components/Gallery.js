@@ -28,9 +28,9 @@ const Gallery = () => {
     );
     const images = data.allCloudinaryMedia.edges
     return (
-        <div>
+        <div className="container">
             {images.map((image, index) => (
-                <figure class="wave" key={`${index}-image`}>
+                <figure className="wave" key={`${index}-image`}>
                     <img 
                         src={image.node.secure_url} 
                         alt={image.node.context.custom.alt} 
