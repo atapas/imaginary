@@ -13,7 +13,8 @@ module.exports = {
               resourceType: `image`,
               prefix: `artists/` ,
               context: true,
-              tags: true
+              tags: true,
+              maxResults: 50
             }
           }
     ]
