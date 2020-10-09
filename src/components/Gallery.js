@@ -20,7 +20,6 @@ const Gallery = () => {
                         }
                     }
                     resource_type
-                    tags
                 }
             }
             }
