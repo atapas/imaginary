@@ -25,7 +25,7 @@ const Gallery = () => {
             }
         }`
     );
-    const images = data.allCloudinaryMedia.edges
+    const images = data.allCloudinaryMedia.edges;
     return (
         <div className="container">
             {images.map((image, index) => (
