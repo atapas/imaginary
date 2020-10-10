@@ -32,8 +32,7 @@ const Gallery = () => {
                 <figure className="wave" key={`${index}-image`}>
                     <img 
                         src={image.node.secure_url} 
-                        alt={image.node.context.custom.alt} 
-                        title={`Known for ${image.node.context.custom.movies}`}>
+                        alt={image.node.context.custom.alt} >
                     </img>
                     <figcaption>{image.node.context.custom.caption}</figcaption>
                 </figure>
