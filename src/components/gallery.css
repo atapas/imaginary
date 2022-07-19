@@ -1,6 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 body {
     background: #000000 url("https://res.cloudinary.com/atapas/image/upload/v1602214656/misc/6284_n48wtw.jpg") repeat-x center top;
     color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+header{ 
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #000000;
+}
+
+header > UL {
+    display: flex;
+}
+
+header > H1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 4px 0 0 0;
+}
+
+header > UL > LI {
+    margin-right: 10px;
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer > p > a {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .container {
