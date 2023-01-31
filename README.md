@@ -1,6 +1,6 @@
 # imaginary
 
-`imaginary` is an image gallery built using Gatsby and Cloudinary. Follow this project to know more. You can see it working from here, [https://imaginary.netlify.app/](https://imaginary.netlify.app/). 
+`imaginary` is an image gallery built using Gatsby and [Cloudinary](https://cloudinary.com/). Follow this project to know more. You can see it working from here, [https://imaginary.netlify.app/](https://imaginary.netlify.app/). 
 
 ✋ Feel free to follow this project as I keep updating the source code. If it was useful to you, show your support with a star ⭐.
 
