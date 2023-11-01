@@ -1,109 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
 
-body {
-    background: #000000 url("https://res.cloudinary.com/atapas/image/upload/v1602214656/misc/6284_n48wtw.jpg") repeat-x center top;
-    color: #FFFFFF;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background: #000000
+      url("https://res.cloudinary.com/atapas/image/upload/v1602214656/misc/6284_n48wtw.jpg")
+      repeat-x center top;
+    color: #ffffff;
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-}
-a {
-    color: #FFFFFF;
-    text-decoration: none;
+  }
 }
 
-header{ 
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-    background-color: #000000;
-}
-
-header > UL {
-    display: flex;
-}
-
-header > H1 {
-    color: #FFFFFF;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 4px 0 0 0;
-}
-
-header > UL > LI {
-    margin-right: 10px;
-    list-style: none;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-}
-
-footer > p > a {
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.container {
-    margin-top: 55px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.wave {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    margin: 20px;
-    animation: wave 
-               ease-in-out 
-               1s 
-               infinite 
-               alternate;
+@layer components {
+  .wave {
+    animation: wave ease-in-out 1s infinite alternate;
     transform-origin: center -20px;
-}
+  }
 
-.wave:hover {
+  .wave:hover {
     animation-play-state: paused;
-}
+  }
 
-.wave img {
+  .wave img {
     border: 5px solid #f8f8f8;
-    display: block;
-    width: 200px;
-    height: 250px;
-    background-color: #000;
-}
+  }
 
-.wave figcaption {
-    text-align: center;
-}
-
-.wave:after{
-    content: '';
+  .wave:after {
+    content: "";
     position: absolute;
-    width: 20px; 
+    width: 20px;
     height: 20px;
     border: 1.5px solid #ffffff;
-    top: -10px; 
+    top: -10px;
     left: 50%;
     z-index: 0;
     border-bottom: none;
     border-right: none;
     transform: rotate(45deg);
-}
+  }
 
-.wave:before{
-    content: '';
+  .wave:before {
+    content: "";
     position: absolute;
     top: -23px;
     left: 50%;
@@ -114,9 +56,14 @@ footer > p > a {
     background-size: 20px 20px;
     background-repeat: no-repeat;
     z-index: 16;
-}
+  }
 
-@keyframes wave {
-    0% { transform: rotate(3deg); }
-    100% { transform: rotate(-3deg); }
+  @keyframes wave {
+    0% {
+      transform: rotate(3deg);
+    }
+    100% {
+      transform: rotate(-3deg);
+    }
+  }
 }

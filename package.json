@@ -20,11 +20,17 @@
   "homepage": "https://github.com/atapas/imaginary#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "gatsby": "^4.17.2",
-    "gatsby-cli": "^4.17.1",
+    "gatsby": "^5.12.9",
+    "gatsby-cli": "^5.0.0",
     "gatsby-source-cloudinary": "^0.2.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-feather": "^2.0.10"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "gatsby-plugin-postcss": "^6.12.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5"
   }
 }
