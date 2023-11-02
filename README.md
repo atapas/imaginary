@@ -11,7 +11,7 @@ Build Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/471c83f3-
 
 # Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
-[![Stargazers repo roster for @atapas/imaginary](https://reporoster.com/stars/atapas/imaginary)](https://github.com/atapas/imaginary/stargazers)
+[![Stargazers repo roster for @atapas/imaginary](https://bytecrank.com/nastyox/reporoster/php/stargazersSVG.php?user=atapas&repo=imaginary)](https://github.com/atapas/imaginary/stargazers)
 
 I love movies and it is natural to have my image gallery with my favorite stars.
 
